@@ -1,6 +1,9 @@
 
 import { FaReact } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiMongodb } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
 
 
 const About = () => {
@@ -15,9 +18,12 @@ const About = () => {
         Who loves to code and learn new things.
       </div>
       <div>
-        <h1>Skills:</h1>
+        <h1 className="">Skills:</h1>
         <FaReact size={100} className='inline  m-4 hover:text-pink-500'/>
         <SiNextdotjs size={100} className='inline m-4 hover:text-pink-500'/>
+        <RiTailwindCssFill size={100} className='inline m-4 hover:text-pink-500'/>
+        <SiMongodb size={100} className='inline m-4 hover:text-pink-500'/>
+        <FaNodeJs size={100} className='inline m-4 hover:text-pink-500'/>
 
       </div>
 </div>
