@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { useState } from 'react'
-
+import { Menu, X } from 'lucide-react'
 
 const navItems = [
     {name:'Home', path: '/'},
@@ -33,13 +33,13 @@ const Navbar = () => {
             {/* mobile drawer */}
             <div className='md:hidden pl-8'>
                <button onClick={() => setIsOpen(!isOpen)}>
-                {isOpen ? 'close' : 'open'}
+                {isOpen ? <X/> : <Menu/>}
                </button>
             </div>
 
             
                 {isOpen && (
-                    <ul className='absolute top-16 w-full flex flex-col justify-center items-center space-y-4 text-sm bg-sky-400'>
+                    <ul className='absolute top-16 w-full flex flex-col justify-center items-center space-y-4 text-sm bg-linear-to-br from-slate-700/90 to-blue-600/40 '>
                         {navItems.map((item) => (
                             <li key={item.name}>
                                 <Link href={item.path} className='hover:text-green-300 hover:underline' onClick={() => setIsOpen(false)}>{item.name}</Link>
