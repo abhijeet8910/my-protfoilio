@@ -43,7 +43,7 @@ const About = () => {
 
               <div className="flex flex-col items-center gap-10">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-center">Skills:</h1>
-              <div className="flex">
+              <div className="flex flex-wrap">
          <FaReact size={50} className=' m-4 hover:text-pink-500'/>
          <SiNextdotjs size={50} className=' m-4 hover:text-pink-500'/>
          <RiTailwindCssFill size={50} className=' m-4 hover:text-pink-500'/>
