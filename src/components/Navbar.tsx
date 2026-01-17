@@ -55,3 +55,8 @@ const Navbar = () => {
 }
 
 export default Navbar
+// header = sticky + z-index
+// nav = flex + justify-between
+// container = max-w + mx-auto + px
+// desktop = hidden md:flex
+// mobile = md:hidden
