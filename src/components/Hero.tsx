@@ -28,7 +28,7 @@
 // export default Hero
 const Hero = () => {
   return (
-    <main className="min-h-screen flex items-center">
+    <main className="min-h-screen flex items-center bg-linear-to-br from-slate-900/90 via-blue-900/90 to-slate-900/90">
       <div className="max-w-6xl mx-auto px-12 w-full">
         <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-12 space-y-12">
         <div className="max-w-3xl  ">

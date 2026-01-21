@@ -31,10 +31,10 @@ const About = () => {
 //     </div>
         <section className=" bg-linear-to-br from-slate-900/90 via-blue-900/90 to-slate-900/90 ">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-mono font-bold text-center ">About</h1>
-          <div className="min-h-screen flex items-center">
+          <main className="min-h-screen flex items-center">
 
          
-          <main className="max-w-6xl mx-auto px-12 w-full">
+          <div className="max-w-6xl mx-auto px-12 w-full">
             <div className="grid lg:grid-cols-2  gap-12 space-y-12">
               <div className="flex max-w-3xl">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight">A passsionate <span className="text-pink-500">WEB</span> Developer who loves to code and learn new things</h1>
@@ -53,8 +53,8 @@ const About = () => {
               </div>
 
             </div>
-          </main>
           </div>
+          </main>
         </section>
   )
 }
